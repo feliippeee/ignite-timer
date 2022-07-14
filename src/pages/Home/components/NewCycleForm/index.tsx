@@ -3,10 +3,9 @@ import {
     TaskInput, 
     MinutesAmountInput 
 } from "./styles";
-import * as zod from 'zod';
-import {useForm, useFormContext} from 'react-hook-form';
+import {useFormContext} from 'react-hook-form';
 import { useContext } from "react";
-import { CyclesContext } from "../..";
+import { CyclesContext } from "../../../../contexts/CyclesContext";
 
 
 export function NewCycleForm() {
